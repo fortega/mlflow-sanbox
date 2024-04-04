@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mlflow-sandbox"
+version = "0.1.0"
+description = "mlflow sandbox"
+authors = ["Felipe Ortega"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+mlflow = "^2.11.3"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
